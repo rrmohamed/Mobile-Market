@@ -55,7 +55,7 @@ function displayProducts(productsList){
     for(let i = 0 ; i< productsList.length ; i++){
         box += `
         <tr>
-            <td>${[i]}</td>
+            <td>${[i + 1]}</td>
             <td>${productsList[i].name}</td>
             <td>${productsList[i].price}</td>
             <td>${productsList[i].category}</td>
